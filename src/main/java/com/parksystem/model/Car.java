@@ -2,12 +2,15 @@ package com.parksystem.model;
 
 public class Car extends Vehicle {
 
+	
 	public Car() {		
 
-    	spotsNeeded = 1;
+    	spotsNeeded = 11;
     	
-		size = VehicleSize.Compact;
+	size = VehicleSize.Compact;
 	}
+
+        
 
 	
 	public boolean canFitInSpot(ParkingSpot spot) {		
